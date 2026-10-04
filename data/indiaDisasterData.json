@@ -1,0 +1,727 @@
+{
+  "emergencyNumbers": [
+    {
+      "name": "National Emergency Number",
+      "number": "112",
+      "description": "All-in-one unified emergency response system across India for Police, Fire, and Ambulance.",
+      "category": "Primary"
+    },
+    {
+      "name": "NDMA Disaster Helpline",
+      "number": "1078",
+      "description": "National Disaster Management Authority control room for disaster alerts, rescue reports, and relief.",
+      "category": "Disaster"
+    },
+    {
+      "name": "State Disaster Helpline (Toll-Free)",
+      "number": "1070",
+      "description": "State Emergency Operations Center (SEOC) for district-level response and coordination.",
+      "category": "Disaster"
+    },
+    {
+      "name": "Emergency Medical Ambulance",
+      "number": "108",
+      "description": "Government emergency ambulance service with life support dispatch.",
+      "category": "Medical"
+    },
+    {
+      "name": "Fire & Rescue Brigade",
+      "number": "101",
+      "description": "Immediate fire hazard containment, structural collapse, and urban rescue teams.",
+      "category": "Fire"
+    },
+    {
+      "name": "Women Helpline",
+      "number": "1091",
+      "description": "24/7 emergency response and distress assistance for women in crisis.",
+      "category": "Welfare"
+    },
+    {
+      "name": "Childline",
+      "number": "1098",
+      "description": "24/7 national emergency response service for children in need of protection.",
+      "category": "Welfare"
+    }
+  ],
+  "states": [
+    {
+      "id": "odisha",
+      "name": "Odisha",
+      "stateHelpline": "1070",
+      "districts": [
+        {
+          "id": "puri",
+          "name": "Puri",
+          "riskLevel": "Very High",
+          "primaryHazards": ["Cyclone", "Storm Surge", "Flood"],
+          "advice": [
+            "Identify the nearest pucca Cyclone Shelter (ODRRP) in your ward or gram panchayat.",
+            "Trim tree branches near overhead power lines and reinforce weak tin or asbestos roofs.",
+            "Store at least 5 days of drinking water in sealed, elevated containers.",
+            "Move cattle and livestock to elevated community flood shelters upon coastal alert issuance."
+          ],
+          "contacts": {
+            "controlRoom": "06752-223201",
+            "police": "06752-225400",
+            "ambulance": "108",
+            "districtDisasterHelpline": "06752-223205"
+          },
+          "officialSources": [
+            { "name": "OSDMA (Odisha SDMA)", "url": "https://www.osdma.org" },
+            { "name": "IMD Bhubaneswar Regional Radar", "url": "https://mausam.imd.gov.in/bhubaneswar" },
+            { "name": "District Collector Puri (@CollectorPuri)", "url": "https://twitter.com/CollectorPuri" }
+          ]
+        },
+        {
+          "id": "balasore",
+          "name": "Balasore",
+          "riskLevel": "High",
+          "primaryHazards": ["Cyclone", "Riverine Flood"],
+          "advice": [
+            "Monitor Subarnarekha and Budhabalanga river discharge levels during monsoon.",
+            "Keep emergency battery torches, portable radios, and dry rations pre-packed.",
+            "Never attempt to cross flooded causeways or breached embankments on foot or by vehicle."
+          ],
+          "contacts": {
+            "controlRoom": "06782-262243",
+            "police": "06782-262002",
+            "ambulance": "108",
+            "districtDisasterHelpline": "1077"
+          },
+          "officialSources": [
+            { "name": "OSDMA Odisha", "url": "https://www.osdma.org" },
+            { "name": "District Administration Balasore", "url": "https://balasore.nic.in" }
+          ]
+        },
+        {
+          "id": "sambalpur",
+          "name": "Sambalpur",
+          "riskLevel": "Moderate",
+          "primaryHazards": ["Heatwave", "Flash Flood"],
+          "advice": [
+            "Stay indoors between 11:30 AM and 3:30 PM when daytime temperatures exceed 42°C.",
+            "Always carry oral rehydration salts (ORS), butter milk, or lemon water when stepping outside.",
+            "Pay attention to Hirakud Dam spillway siren alerts during intense upstream rainfall."
+          ],
+          "contacts": {
+            "controlRoom": "0663-2400223",
+            "police": "0663-2400330",
+            "ambulance": "108",
+            "districtDisasterHelpline": "0663-2400100"
+          },
+          "officialSources": [
+            { "name": "OSDMA Heat Action Portal", "url": "https://www.osdma.org" },
+            { "name": "Sambalpur District Portal", "url": "https://sambalpur.nic.in" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "himachal-pradesh",
+      "name": "Himachal Pradesh",
+      "stateHelpline": "1070",
+      "districts": [
+        {
+          "id": "kullu",
+          "name": "Kullu",
+          "riskLevel": "Very High",
+          "primaryHazards": ["Landslide", "Flash Flood", "Earthquake"],
+          "advice": [
+            "Avoid pitching tents or staying in homestays located along the Beas river active flood plain.",
+            "Inspect slope retention walls and ensure surface stormwater runoff drains freely away from foundations.",
+            "Kullu lies in Seismic Zone V: keep an earthquake survival grab-bag with whistle, first-aid, and thermal foil blankets."
+          ],
+          "contacts": {
+            "controlRoom": "01902-222375",
+            "police": "01902-224700",
+            "ambulance": "108",
+            "districtDisasterHelpline": "1077"
+          },
+          "officialSources": [
+            { "name": "HPSDMA State Portal", "url": "https://hpsdma.nic.in" },
+            { "name": "IMD Shimla Weather Bulletin", "url": "https://mausam.imd.gov.in/shimla" },
+            { "name": "District Administration Kullu", "url": "https://hpkullu.nic.in" }
+          ]
+        },
+        {
+          "id": "kangra",
+          "name": "Kangra",
+          "riskLevel": "High",
+          "primaryHazards": ["Earthquake", "Landslide", "Urban Fire"],
+          "advice": [
+            "Retrofit unreinforced masonry and avoid unauthorized vertical structural additions.",
+            "Practice the Drop, Cover, and Hold On maneuver with family members every quarter.",
+            "Avoid driving on mountain roads after continuous 24-hour rainfall spells."
+          ],
+          "contacts": {
+            "controlRoom": "01892-229007",
+            "police": "01892-222244",
+            "ambulance": "108",
+            "districtDisasterHelpline": "1077"
+          },
+          "officialSources": [
+            { "name": "HPSDMA Kangra", "url": "https://hpsdma.nic.in" },
+            { "name": "District Portal Kangra", "url": "https://hpkangra.nic.in" }
+          ]
+        },
+        {
+          "id": "shimla",
+          "name": "Shimla",
+          "riskLevel": "Moderate",
+          "primaryHazards": ["Landslide", "Fire", "Earthquake"],
+          "advice": [
+            "Equip wooden residential buildings with functional dry chemical ABC fire extinguishers.",
+            "Monitor retaining walls for diagonal cracks or soil sinking along hillside lanes.",
+            "Keep emergency heating alternatives safe from carbon monoxide buildup in winter."
+          ],
+          "contacts": {
+            "controlRoom": "0177-2800100",
+            "police": "0177-2803434",
+            "ambulance": "108",
+            "districtDisasterHelpline": "1077"
+          },
+          "officialSources": [
+            { "name": "HPSDMA Shimla", "url": "https://hpsdma.nic.in" },
+            { "name": "Shimla Municipal Corporation", "url": "https://shimlamc.hp.gov.in" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "maharashtra",
+      "name": "Maharashtra",
+      "stateHelpline": "022-22027990",
+      "districts": [
+        {
+          "id": "mumbai-suburban",
+          "name": "Mumbai Suburban",
+          "riskLevel": "High",
+          "primaryHazards": ["Urban Flood", "Cyclone", "Fire"],
+          "advice": [
+            "Check BMC high-tide forecasts before commuting during heavy monsoon spells.",
+            "Never walk through inundated waters where electric feeder boxes or junction poles are submerged.",
+            "Know your building's primary and alternate fire evacuation staircase."
+          ],
+          "contacts": {
+            "controlRoom": "022-22694727",
+            "police": "100 / 112",
+            "ambulance": "108",
+            "districtDisasterHelpline": "1916 (BMC Disaster Cell)"
+          },
+          "officialSources": [
+            { "name": "BMC Disaster Management Cell", "url": "https://dm.mcgm.gov.in" },
+            { "name": "IMD Mumbai Radar", "url": "https://mausam.imd.gov.in/mumbai" },
+            { "name": "Maharashtra SDMA", "url": "https://mahasdma.maharashtra.gov.in" }
+          ]
+        },
+        {
+          "id": "raigad",
+          "name": "Raigad",
+          "riskLevel": "Very High",
+          "primaryHazards": ["Landslide", "Cyclone", "Flood"],
+          "advice": [
+            "Heed immediate evacuation orders for settlements located at foot of unstable Western Ghat hills.",
+            "Secure boats, fishing equipment, and exterior solar panels prior to Arabian Sea depression landfall.",
+            "Store prescription medicines in waterproof bags."
+          ],
+          "contacts": {
+            "controlRoom": "02141-222001",
+            "police": "02141-222100",
+            "ambulance": "108",
+            "districtDisasterHelpline": "1077"
+          },
+          "officialSources": [
+            { "name": "Maharashtra SDMA", "url": "https://mahasdma.maharashtra.gov.in" },
+            { "name": "Collectorate Raigad", "url": "https://raigad.gov.in" }
+          ]
+        },
+        {
+          "id": "nagpur",
+          "name": "Nagpur",
+          "riskLevel": "Moderate",
+          "primaryHazards": ["Heatwave", "Urban Flood"],
+          "advice": [
+            "Avoid continuous direct sun exposure during peak May heatwave periods.",
+            "Wear white, breathable cotton clothing and cover head with a wet cloth if outdoor transit is required.",
+            "Clean rooftop terrace drains before pre-monsoon convective thunderstorms."
+          ],
+          "contacts": {
+            "controlRoom": "0712-2562668",
+            "police": "0712-2561222",
+            "ambulance": "108",
+            "districtDisasterHelpline": "1077"
+          },
+          "officialSources": [
+            { "name": "Nagpur Municipal Corporation", "url": "https://www.nmcnagpur.gov.in" },
+            { "name": "IMD Regional Met Centre Nagpur", "url": "https://mausam.imd.gov.in/nagpur" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "assam",
+      "name": "Assam",
+      "stateHelpline": "1070",
+      "districts": [
+        {
+          "id": "dhemaji",
+          "name": "Dhemaji",
+          "riskLevel": "Very High",
+          "primaryHazards": ["Riverine Flood", "Bank Erosion", "Earthquake"],
+          "advice": [
+            "Keep emergency country boats, life vests, or bamboo floats accessible near riverside dwellings.",
+            "Store dry rations, flattened rice (chira), molasses, and water purification chlorine tablets on elevated bamboo machans.",
+            "Strictly avoid drinking unfiltered floodwater; boil all water vigorously."
+          ],
+          "contacts": {
+            "controlRoom": "03753-224443",
+            "police": "03753-224222",
+            "ambulance": "108",
+            "districtDisasterHelpline": "1077"
+          },
+          "officialSources": [
+            { "name": "ASDMA (Assam SDMA)", "url": "https://asdma.assam.gov.in" },
+            { "name": "Central Water Commission (CWC Flood Forecast)", "url": "https://ffs.india-water.gov.in" }
+          ]
+        },
+        {
+          "id": "kamrup-metro",
+          "name": "Kamrup Metropolitan (Guwahati)",
+          "riskLevel": "High",
+          "primaryHazards": ["Earthquake", "Urban Inundation", "Landslide"],
+          "advice": [
+            "Guwahati sits in Seismic Zone V: fasten heavy bookcases, refrigerators, and water geysers firmly to walls.",
+            "Do not settle on deforested hill slopes prone to sudden mudflows during monsoon squalls.",
+            "Clear neighborhood drain inlets of plastic garbage to mitigate localized artificial flooding."
+          ],
+          "contacts": {
+            "controlRoom": "0361-2733052",
+            "police": "0361-2464555",
+            "ambulance": "108",
+            "districtDisasterHelpline": "1077"
+          },
+          "officialSources": [
+            { "name": "ASDMA Assam", "url": "https://asdma.assam.gov.in" },
+            { "name": "District Administration Kamrup Metro", "url": "https://kamrupmetro.assam.gov.in" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rajasthan",
+      "name": "Rajasthan",
+      "stateHelpline": "1070",
+      "districts": [
+        {
+          "id": "churu",
+          "name": "Churu",
+          "riskLevel": "High",
+          "primaryHazards": ["Extreme Heatwave", "Drought"],
+          "advice": [
+            "Avoid strenuous agricultural or physical work between 12:00 PM and 4:00 PM during Loo wind spells.",
+            "Maintain shaded spaces and water troughs for cattle and domestic animals.",
+            "Treat symptoms of heat exhaustion (dizziness, nausea, excessive thirst) immediately with electrolyte solutions."
+          ],
+          "contacts": {
+            "controlRoom": "01562-250124",
+            "police": "01562-250100",
+            "ambulance": "108",
+            "districtDisasterHelpline": "1077"
+          },
+          "officialSources": [
+            { "name": "DM&R Rajasthan (Disaster Portal)", "url": "https://dmr.rajasthan.gov.in" },
+            { "name": "IMD Jaipur Meteorological Centre", "url": "https://mausam.imd.gov.in/jaipur" }
+          ]
+        },
+        {
+          "id": "jodhpur",
+          "name": "Jodhpur",
+          "riskLevel": "Moderate",
+          "primaryHazards": ["Heatwave", "Drought", "Flash Flood"],
+          "advice": [
+            "Maintain domestic traditional rainwater harvesting (tankas) in clean condition.",
+            "Be aware of flash runoff in rocky low-lying city alleys during sudden short cloudbursts.",
+            "Use heavy blinds and khus curtains on west-facing windows."
+          ],
+          "contacts": {
+            "controlRoom": "0291-2650350",
+            "police": "0291-2650300",
+            "ambulance": "108",
+            "districtDisasterHelpline": "1077"
+          },
+          "officialSources": [
+            { "name": "Rajasthan SDMA", "url": "https://dmr.rajasthan.gov.in" },
+            { "name": "District Collectorate Jodhpur", "url": "https://jodhpur.rajasthan.gov.in" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kerala",
+      "name": "Kerala",
+      "stateHelpline": "1077",
+      "districts": [
+        {
+          "id": "wayanad",
+          "name": "Wayanad",
+          "riskLevel": "Very High",
+          "primaryHazards": ["Landslide", "Flash Flood"],
+          "advice": [
+            "Comply immediately with district red alert relocation orders in designated high-slope landslide corridors.",
+            "Watch for environmental warning cues: abrupt muddying of spring water or small hillside soil crevices.",
+            "Keep emergency contact numbers of local ward panchayat disaster committees saved on speed dial."
+          ],
+          "contacts": {
+            "controlRoom": "04936-204151",
+            "police": "04936-202525",
+            "ambulance": "108",
+            "districtDisasterHelpline": "1077"
+          },
+          "officialSources": [
+            { "name": "KSDMA (Kerala SDMA)", "url": "https://sdma.kerala.gov.in" },
+            { "name": "IMD Thiruvananthapuram", "url": "https://mausam.imd.gov.in/thiruvananthapuram" }
+          ]
+        },
+        {
+          "id": "alappuzha",
+          "name": "Alappuzha",
+          "riskLevel": "High",
+          "primaryHazards": ["Flood", "Coastal Inundation"],
+          "advice": [
+            "Store essential documents and medicines on high shelves or waterproof bags during Kuttanad waterlogging.",
+            "Prepare for early transit to safe relief camps before boat routes become hazardous.",
+            "Disinfect open well drinking water with chlorine bleaches once flood water recedes."
+          ],
+          "contacts": {
+            "controlRoom": "0477-2238630",
+            "police": "0477-2230804",
+            "ambulance": "108",
+            "districtDisasterHelpline": "1077"
+          },
+          "officialSources": [
+            { "name": "KSDMA Kerala", "url": "https://sdma.kerala.gov.in" },
+            { "name": "District Administration Alappuzha", "url": "https://alappuzha.nic.in" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uttarakhand",
+      "name": "Uttarakhand",
+      "stateHelpline": "1070",
+      "districts": [
+        {
+          "id": "chamoli",
+          "name": "Chamoli",
+          "riskLevel": "Very High",
+          "primaryHazards": ["Landslide", "Flash Flood", "Earthquake"],
+          "advice": [
+            "Do not venture near Alaknanda, Dhauliganga, or Rishi Ganga riverbanks during cloudburst or glacial lake advisories.",
+            "Follow SDRF instructions immediately regarding highway traffic halts on the Badrinath route.",
+            "Have an emergency survival kit packed at all times in mountain dwellings."
+          ],
+          "contacts": {
+            "controlRoom": "01372-251437",
+            "police": "01372-252133",
+            "ambulance": "108",
+            "districtDisasterHelpline": "1077"
+          },
+          "officialSources": [
+            { "name": "USDMA (Uttarakhand SDMA)", "url": "https://usdma.uk.gov.in" },
+            { "name": "SDRF Uttarakhand (@uksdrf)", "url": "https://twitter.com/uksdrf" }
+          ]
+        },
+        {
+          "id": "dehradun",
+          "name": "Dehradun",
+          "riskLevel": "Moderate",
+          "primaryHazards": ["Earthquake", "Flash Flood", "Urban Fire"],
+          "advice": [
+            "Adhere to earthquake building codes for all private residential constructions.",
+            "Avoid driving through swollen seasonal rivulets (raos) around Doon valley during heavy monsoon spells.",
+            "Keep emergency household escape plans rehearsed."
+          ],
+          "contacts": {
+            "controlRoom": "0135-2726066",
+            "police": "0135-2716201",
+            "ambulance": "108",
+            "districtDisasterHelpline": "1077"
+          },
+          "officialSources": [
+            { "name": "USDMA Uttarakhand", "url": "https://usdma.uk.gov.in" },
+            { "name": "District Administration Dehradun", "url": "https://dehradun.nic.in" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gujarat",
+      "name": "Gujarat",
+      "stateHelpline": "1070",
+      "districts": [
+        {
+          "id": "kutch",
+          "name": "Kutch",
+          "riskLevel": "Very High",
+          "primaryHazards": ["Earthquake", "Cyclone", "Drought"],
+          "advice": [
+            "Kutch is situated in the highest Seismic Zone V: avoid heavy overhead terrace masonry and secure unanchored walls.",
+            "During cyclone threats, evacuate coastal salt-pan worker settlements and kachha dwellings early.",
+            "Store conservative water supplies and livestock fodder provisions."
+          ],
+          "contacts": {
+            "controlRoom": "02832-250080",
+            "police": "02832-250333",
+            "ambulance": "108",
+            "districtDisasterHelpline": "1077"
+          },
+          "officialSources": [
+            { "name": "GSDMA (Gujarat SDMA)", "url": "https://gsdma.org" },
+            { "name": "IMD Ahmedabad Weather Office", "url": "https://mausam.imd.gov.in/ahmedabad" }
+          ]
+        },
+        {
+          "id": "surat",
+          "name": "Surat",
+          "riskLevel": "High",
+          "primaryHazards": ["Urban Flood", "Cyclone", "Fire"],
+          "advice": [
+            "Check Tapi river Ukai Dam water release updates before planning movement in low-lying riverside areas.",
+            "Industrial and textile godown operators must keep fire hydrants and dry chemical extinguishers certified.",
+            "Unplug electrical equipment and lift appliances from ground floor levels during inundation warnings."
+          ],
+          "contacts": {
+            "controlRoom": "0261-2463307",
+            "police": "0261-2461111",
+            "ambulance": "108",
+            "districtDisasterHelpline": "1077"
+          },
+          "officialSources": [
+            { "name": "Surat Municipal Corporation Flood Cell", "url": "https://www.suratmunicipal.gov.in" },
+            { "name": "GSDMA Gujarat", "url": "https://gsdma.org" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bihar",
+      "name": "Bihar",
+      "stateHelpline": "1070",
+      "districts": [
+        {
+          "id": "madhubani",
+          "name": "Madhubani",
+          "riskLevel": "High",
+          "primaryHazards": ["Riverine Flood", "Earthquake"],
+          "advice": [
+            "Keep emergency grain reserves in elevated grain silos (kothis).",
+            "Keep contact numbers of NDRF/SDRF boat team commanders posted at the block office.",
+            "Do not build permanent heavy masonry without tie-bands in high seismicity zones."
+          ],
+          "contacts": {
+            "controlRoom": "06276-222576",
+            "police": "06276-222213",
+            "ambulance": "102 / 108",
+            "districtDisasterHelpline": "1077"
+          },
+          "officialSources": [
+            { "name": "BSDMA (Bihar SDMA)", "url": "https://bsdma.org" },
+            { "name": "Disaster Management Dept Bihar", "url": "https://disastermgmt.bih.gov.in" }
+          ]
+        },
+        {
+          "id": "patna",
+          "name": "Patna",
+          "riskLevel": "Moderate",
+          "primaryHazards": ["Urban Inundation", "Heatwave", "Fire"],
+          "advice": [
+            "Keep mobile phone and battery inverters charged during high Ganga river discharge warnings.",
+            "Avoid direct afternoon sun during severe summer heatwaves; drink sattu and aam panna.",
+            "Ensure household electrical switchboards are inspected for loose connections."
+          ],
+          "contacts": {
+            "controlRoom": "0612-2210118",
+            "police": "0612-2201977",
+            "ambulance": "102 / 108",
+            "districtDisasterHelpline": "1077"
+          },
+          "officialSources": [
+            { "name": "BSDMA Bihar", "url": "https://bsdma.org" },
+            { "name": "District Administration Patna", "url": "https://patna.nic.in" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tamil-nadu",
+      "name": "Tamil Nadu",
+      "stateHelpline": "1070",
+      "districts": [
+        {
+          "id": "chennai",
+          "name": "Chennai",
+          "riskLevel": "High",
+          "primaryHazards": ["Cyclone", "Urban Inundation", "Coastal Surge"],
+          "advice": [
+            "Know your neighborhood's nearest GCC relief community center and boat staging point.",
+            "Move motor vehicles to elevated multi-level parking structures ahead of red-alert northeast monsoon rain.",
+            "Keep adequate food, candles, matches, and drinking water for at least 72 hours."
+          ],
+          "contacts": {
+            "controlRoom": "044-25619206",
+            "police": "100 / 112",
+            "ambulance": "108",
+            "districtDisasterHelpline": "1913 (Greater Chennai Corp)"
+          },
+          "officialSources": [
+            { "name": "TNSDMA (Tamil Nadu SDMA)", "url": "https://tnsdma.tn.gov.in" },
+            { "name": "Greater Chennai Corporation", "url": "https://www.chennaicorporation.gov.in" },
+            { "name": "IMD Regional Met Centre Chennai", "url": "https://mausam.imd.gov.in/chennai" }
+          ]
+        },
+        {
+          "id": "nilgiris",
+          "name": "The Nilgiris",
+          "riskLevel": "High",
+          "primaryHazards": ["Landslide", "Flash Flood"],
+          "advice": [
+            "Avoid all unnecessary travel along ghat roads during active heavy rainfall warnings.",
+            "Clear debris and leaf-clogged gutters around hill dwellings to prevent soil saturation.",
+            "Follow municipal advisories regarding structural vulnerability of slope residences."
+          ],
+          "contacts": {
+            "controlRoom": "0423-2442433",
+            "police": "0423-2444010",
+            "ambulance": "108",
+            "districtDisasterHelpline": "1077"
+          },
+          "officialSources": [
+            { "name": "TNSDMA Tamil Nadu", "url": "https://tnsdma.tn.gov.in" },
+            { "name": "Nilgiris District Portal", "url": "https://nilgiris.nic.in" }
+          ]
+        }
+      ]
+    }
+  ],
+  "disasterGuides": [
+    {
+      "id": "flood",
+      "name": "Flood & Flash Flood",
+      "description": "Rapid inundation from excessive monsoon rain, river breach, or cloudburst.",
+      "before": [
+        "Store clean water in sealed containers and pack a waterproof grab-bag with documents.",
+        "Identify high ground and community evacuation centers in your ward or panchayat.",
+        "Elevate critical electrical panels and unplug major appliances."
+      ],
+      "during": [
+        "Never drive or walk through moving floodwater (6 inches of water can knock you down).",
+        "Disconnect cooking gas cylinders and turn off the main electrical breaker.",
+        "Stay tuned to local government radio or official SMS alerts on mobile."
+      ],
+      "after": [
+        "Avoid downed power lines, standing water pools, and damaged electrical wiring.",
+        "Boil all drinking water thoroughly for at least 1 minute before consuming.",
+        "Photograph building damage before starting debris cleanup for disaster relief claims."
+      ]
+    },
+    {
+      "id": "cyclone",
+      "name": "Cyclone & Coastal Storm Surge",
+      "description": "Severe cyclonic storms carrying destructive winds exceeding 120 km/h and intense rainfall.",
+      "before": [
+        "Trim tree branches near power lines and secure loose tin roofing sheets.",
+        "Board up or tape glass windows and secure external solar panels or water tanks.",
+        "Keep battery-powered radios, torches, and extra batteries fully ready."
+      ],
+      "during": [
+        "Remain indoors in the strongest, central room of the building away from glass windows.",
+        "Do not leave shelter when the eye of the storm passes (winds will resume suddenly).",
+        "Keep mobile phones switched to battery-saver mode and preserve charge."
+      ],
+      "after": [
+        "Wait for official 'all-clear' announcement from IMD or local authorities before leaving shelter.",
+        "Watch for venomous snakes displaced into homes by floodwaters.",
+        "Do not touch snapped electric cables hanging from poles or submerged in water."
+      ]
+    },
+    {
+      "id": "earthquake",
+      "name": "Earthquake",
+      "description": "Sudden violent shaking of the ground caused by movement along geological fault lines.",
+      "before": [
+        "Secure heavy cupboards, mirrors, and ceiling fans to wall studs with brackets.",
+        "Identify safe interior drop spots (under heavy wooden tables or beside interior load-bearing walls).",
+        "Assemble an emergency kit with whistle, torch, basic first-aid, and work gloves."
+      ],
+      "during": [
+        "DROP to the ground, take COVER under a sturdy table, and HOLD ON until tremors cease.",
+        "If in bed, stay there and protect your head and neck with a pillow.",
+        "Do not use elevators or run into narrow crowded stairwells during shaking."
+      ],
+      "after": [
+        "Be prepared for dangerous aftershocks over the next 24 to 72 hours.",
+        "Check for gas leaks immediately; do not strike matches or turn on light switches if gas is smelled.",
+        "Use a whistle or tap rhythmically on pipes if trapped under debris to signal rescue teams."
+      ]
+    },
+    {
+      "id": "heatwave",
+      "name": "Heatwave & Extreme Temperature",
+      "description": "Prolonged periods of abnormal thermal stress exceeding 40°C in plains and 30°C in hills.",
+      "before": [
+        "Block direct solar heat into living rooms using damp dark curtains, bamboo blinds, or white paint on roofs.",
+        "Stock up on Oral Rehydration Salts (ORS), electrolyte powders, and glucose.",
+        "Plan outdoor labor and errands strictly before 10:00 AM or after 5:00 PM."
+      ],
+      "during": [
+        "Drink water frequently, even if you do not feel thirsty.",
+        "Never leave children, infants, or pets inside parked vehicles even for a few minutes.",
+        "Wear loose, light-colored cotton clothing and cover head with cloth or an umbrella."
+      ],
+      "after": [
+        "Recognize heat stroke signs: High body temperature (>40°C), confusion, vomiting, or no sweating.",
+        "Move heatstroke victims to shade immediately, apply cold wet towels, and dial 108/112."
+      ]
+    },
+    {
+      "id": "landslide",
+      "name": "Landslide & Mudflow",
+      "description": "Downward movement of rock, earth, or debris triggered by intense rainfall or earth tremors.",
+      "before": [
+        "Learn historical landslide zones in your hill station or highway corridor.",
+        "Watch for telltale warning signs: cracks in exterior walls, tilting fence posts or telephone poles.",
+        "Ensure surface stormwater drains flow safely away from slopes and foundation walls."
+      ],
+      "during": [
+        "Quickly evacuate downhill structures if unusual sounds like trees cracking or boulders rolling are heard.",
+        "If escape is impossible, curl into a tight ball and protect your head with your arms.",
+        "Never cross mountain roads when small rocks or muddy streams begin sliding over the asphalt."
+      ],
+      "after": [
+        "Stay away from slide areas; secondary landslides frequently follow initial slope failures.",
+        "Check for injured or trapped persons without entering direct slide path.",
+        "Report broken utility lines to SDMA and PWD helpline personnel immediately."
+      ]
+    },
+    {
+      "id": "fire",
+      "name": "Urban & Domestic Fire",
+      "description": "Rapid fire spread in residential buildings, informal settlements, or commercial spaces.",
+      "before": [
+        "Install and check smoke alarms and maintain at least one ABC dry powder fire extinguisher.",
+        "Map two emergency escape exits from every room in your home or flat.",
+        "Never overload multi-plug electrical extension boards or use damaged cords."
+      ],
+      "during": [
+        "Crawl low under smoke towards the nearest fire exit (smoke and toxic fumes rise to the ceiling).",
+        "Feel doors with the back of your hand; if the knob or door feels hot, do not open it.",
+        "If your clothes catch fire: STOP, DROP to the ground, and ROLL repeatedly."
+      ],
+      "after": [
+        "Do not re-enter a burned building until cleared by the local fire brigade officer.",
+        "Cool minor burns with clean, cool running water for 10-15 minutes; never apply butter or grease.",
+        "Call 101 or 112 immediately if anyone requires medical or smoke inhalation care."
+      ]
+    }
+  ]
+}
